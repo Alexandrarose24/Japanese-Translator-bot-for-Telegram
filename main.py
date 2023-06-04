@@ -29,7 +29,6 @@ collections = accounts_db.list_collection_names()
 acc_collection = accounts_db.Translations
 
 TOKEN: Final = os.environ.get('BOT_TOKEN')
-BOT_USERNAME: Final = '@manga_tr_l_bot'
 
 def insert_into_doc(user_data_doc, update:Update):
     collection = accounts_db.Translations
